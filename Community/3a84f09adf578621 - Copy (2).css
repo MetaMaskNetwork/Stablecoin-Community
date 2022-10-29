@@ -1,0 +1,154 @@
+[class~=hurrytimer-campaign] {
+  line-height: normal;
+  text-align: center;
+  padding: 10px 0;
+}
+[class~=hurrytimer-campaign] * {
+  line-height: normal;
+}
+
+.hurryt-loading {
+  display: none !important;
+}
+
+.hurrytimer-timer {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hurrytimer-timer-digit {
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+}
+
+.hurrytimer-headline {
+  color: #333;
+  display: block;
+  margin: 5px auto;
+}
+
+.hurrytimer-timer-block {
+  position: relative;
+  display: flex;
+  margin-right: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.hurrytimer-timer-block:last-child {
+  margin-right: 0;
+}
+.hurrytimer-timer-block:first-child {
+  margin-left: 0;
+}
+
+.hurrytimer-sticky {
+  margin: auto !important;
+  width: 100%;
+  background: #fff;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  position: fixed;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+.hurrytimer-sticky.is-off {
+  position: relative;
+  z-index: 0;
+}
+
+.admin-bar:not(.wp-admin) .hurrytimer-sticky {
+  z-index: 999999;
+}
+
+.hurrytimer-sticky-inner {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.hurrytimer-button {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+}
+
+.hurrytimer-sticky-close {
+  right: 10px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  display: flex;
+}
+.hurrytimer-sticky-close svg {
+  fill: #333;
+  width: 100%;
+  height: 100%;
+}
+.hurrytimer-sticky-close:hover {
+  opacity: 1;
+  background: none;
+}
+.hurrytimer-campaign-1985{
+    text-align: center;
+    display: block;
+}
+
+.hurrytimer-campaign-1985 .hurrytimer-timer-digit,
+.hurrytimer-campaign-1985 .hurrytimer-timer-sep{
+    color: #ffffff;
+    display: block;
+    font-size: 100px;
+}
+
+.hurrytimer-campaign-1985 .hurrytimer-timer{
+justify-content:center}.hurrytimer-campaign-1985 .hurrytimer-timer-label{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+}
+
+
+
+.hurrytimer-campaign-1985 .hurrytimer-headline{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 5px;
+
+}
+
+.hurrytimer-campaign-1985 .hurrytimer-button-wrap{
+    margin-top: 5px;
+
+}
+.hurrytimer-campaign-1985 .hurrytimer-button{
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+@media(max-width:425px) {
+.hurrytimer-campaign-1985 .hurrytimer-button-wrap,
+.hurrytimer-campaign-1985 .hurrytimer-headline
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+}
